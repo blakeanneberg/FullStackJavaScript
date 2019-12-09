@@ -1,0 +1,157 @@
+notes
+
+▪	values
+⁃	numbers
+⁃	words
+⁃	logical statements true false
+▪	variables hold values
+⁃	string ex. ‘hello word’
+▪	commands (functions)
+⁃	define function, call function to execute
+▪	control structure
+⁃	control flow
+⁃	conditional statements like: ‘if’ a certain condition is true ‘then’ a program does something
+
+HTML
+▪	head
+⁃	meta
+⁃	title
+⁃	link styleseet
+▪	body
+⁃	navigation list
+▪	header
+⁃	navigation list & Logo
+▪	main
+⁃	main sections
+▪	footer
+⁃	copyright
+⁃	social
+⁃	secondary nav
+Images
+▪	src
+▪	alt
+▪	class
+▪	absolute url
+Margin
+▪	amount of space between elements
+Link and Anchor tag
+▪	<a href="#top"> text here </a>
+▪	target =“_blank”
+▪	src=“”
+▪	alt=“”
+Lists
+▪	<ol></ol>
+▪	<ul></ul>
+▪	<li></li>
+CSS
+▪	HTML <h2 class=“card-title”>example</h2>
+▪	CSS CLASS HTML class=“main-image” but in CSS it is  .main-image { }
+▪	padding is near the text, margin is outside the text
+
+-research the question
+-look over code
+-google
+-notes
+
+` code `
+``` paragraph code ```
+< quote
+_italics_
+*bold*
+tlWv5JH8A2GR
+F6TSo2z7Enza
+
+
+var HTMLbadges = prompt('how many HTML badges did you have?');
+var CSSbadges = prompt('How many css badges did you have');
+var totalBadges = parseInt(HTMLbadges) + parseInt(CSSbadges);
+alert('wow! you ahve ' + totalBadges + 'badges!');
+
+parseFloat() gives back numbers and decimals and negative numbers
+parseInt() gives back just numbers no text and no decimals
+
+var width = '190px';
+var numOfDivs = 10;
+var totalWidth = 1900;
+parseInt(width);
+parseInt(numOfDivs);
+
+
+Objects are stirngs and numbers
+
+
+var temperature = 37.5;
+alert (Math.round(temperature));
+
+
+var temperature = 37.5;
+alert (Math.floor(temperature));
+
+Math.floor( Math.random() * 6) + 1
+
+
+var dieRoll = Math.floor(Math.random() * 6) + 1;
+alert('You rolled a ' + dieRoll);
+
+prompt()//dialogue to collect user input
+parseInt()//function to convert input to an interger
+Math.random() method to create a random numbers
+
+
+( 'lion' > 'zebra' )
+When comparing strings, the first letter of the first string
+ is compared to the first letter of the second string.
+  Since 'l' comes before 'z' in the alphabet, 'lion' is not greater than 'zebra.'
+
+
+  && and operator (all have to be true)
+
+  || or operator ( just one has to be true)
+
+
+  function is a set of insturcitons you want to run over and over again.
+
+you can pass a piece of infomation called an argument to a function, 
+the function stores that viaue in a parameter and uses it wihtin the function.
+
+a function can alos return a value that can be used in a different
+part of the program, unline a return item that must be a single item,
+variale or string, number or boolean and so on, function can accept multiple arguments
+
+A value sent to a function is stored in a "parameter." 
+When you call a function you pass an "argument" which is stored in a "parameter" in the function.
+parameter: You pass one or more "arguments" to a function. 
+Parameters are closely related, people often get the two mixed-up.
+
+
+function max (value, value) {
+    if (arguments[0] > arguments[1]) 
+    { return arguments[0]; } else {
+         return arguments[1]; } }
+
+alert( max(1, 2)); // arguments[1] or number 2 is returned because arguments[0] value is smaller than arguments[1]
+
+
+
+function greeting() {
+    var person = 'blake';
+    alert(person);
+}
+var person = 'ben';
+greeting();
+alert(person);
+
+
+
+function getRandomNumber ( lower, upper ) {
+    return Math.floor(Math.random() * (upper - lower + 1)) + lower; 
+}
+
+console.log( getRandomNumber( 1, 6) );
+
+
+if ( || ) {
+    thow new Error('error message');
+}
+
+
