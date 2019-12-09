@@ -10,3 +10,6 @@ var person = {
     var div = document.getElementById('output');
     div.innerHTML = message;
   }
+
+  var message = '<p>Hello. My name is ' + person.name + '</p>';
+  print(message);
