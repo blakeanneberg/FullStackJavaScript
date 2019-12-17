@@ -6,7 +6,7 @@ var person = {
   skills : ['JavaScript', 'HTML', 'CSS']
 };
 
-for (prop in person) {
+for (var prop in person) {
   console.log(prop, ': ', person[prop]);
 }
 
