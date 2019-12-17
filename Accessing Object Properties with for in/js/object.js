@@ -7,7 +7,7 @@ var person = {
 };
 
 for (prop in person) {
-  console.log(prop);
+  console.log(prop, ': ', person[prop]);
 }
 
 
