@@ -15,7 +15,7 @@ var message = '<p>Hello. My name is ' + person.name + '.</p>';
 message += '<p>I live in the ' + person.country + '.</p>';
 person.name = 'Paco Denver';
 message += '<p>But, I wish my name was ' + person.name + '.</p>';
-person.age += 34;
+person.age += -1;
 message += '<p>My age is ' + person.age + '.</p>';
 message += '<p>I have ' + person.skills.length + ' skills.</p>';
 
