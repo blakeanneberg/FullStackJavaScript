@@ -1,15 +1,19 @@
 var person = {
-    name : 'Sarah',
-    country : 'US',
-    age : 35,
-    treehouseStudent : true,
-    skills : ['JavaScript', 'HTML', 'CSS']
-  };
-  
-  function print(message) {
-    var div = document.getElementById('output');
-    div.innerHTML = message;
-  }
+  name : 'Blake A',
+  country : 'US',
+  age : 35,
+  treehouseStudent : true,
+  skills : ['JavaScript', 'HTML', 'CSS']
+};
 
-  var message = '<p>Hello. My name is ' + person.name + '</p>';
-  print(message);
+function print(message) {
+  var div = document.getElementById('output');
+  div.innerHTML = message;
+}
+
+var message = '<p>Hello. My name is ' + person.name + '</p>';
+message += '<p>I live in the ' + person.country + '</p>';
+person.name = 'Paco Denver';
+message += '<p>But, I wish my name was ' + person.name + '</p>';
+
+print(message);
