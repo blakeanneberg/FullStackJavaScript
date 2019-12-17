@@ -8,8 +8,8 @@ var person = {
   
   function print(message) {
     var div = document.getElementById('output');
-    div.innerHTML = message;
+    div.innerHTML = Message;
   }
 
-  var message = '<p>Hello. My name is ' + person.name + '</p>';
-  print(message);
+  var Message = '<p>Hello. My name is ' + person.name + '</p>';
+  print(Message);
