@@ -18,5 +18,5 @@ message += '<p>But, I wish my name was ' + person.name + '.</p>';
 person.age += 1;
 message += '<p>My age is ' + person.age + '.</p>';
 message += '<p>I have ' + person.skills.length + ' skills.</p>';
-
+message += person.skills.join(', ') + '</p>';
 print(message);
