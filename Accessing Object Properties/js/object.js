@@ -11,9 +11,9 @@ function print(message) {
   div.innerHTML = message;
 }
 
-var message = '<p>Hello. My name is ' + person.name + '</p>';
-message += '<p>I live in the ' + person.country + '</p>';
+var message = '<p>Hello. My name is ' + person.name + '.</p>';
+message += '<p>I live in the ' + person.country + '.</p>';
 person.name = 'Paco Denver';
-message += '<p>But, I wish my name was ' + person.name + '</p>';
+message += '<p>But, I wish my name was ' + person.name + '.</p>';
 
 print(message);
