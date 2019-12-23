@@ -1,8 +1,15 @@
 
 var questions = [
-    ['States in USA', 50],
-    ['Contents in world', 7 ],
-    ['Legs humans have', 2 ]
+    {
+        question: ' States in USA', 
+        answer: 50
+    },
+    {   question: ' Contents in world', 
+        answer: 7 
+    },
+    {   
+        question: ' Legs humans have', 
+        answer: 2 }
 ];
 
 var correctAnswers = 0;
@@ -28,8 +35,8 @@ function buildList(arr){
 }
 
 for ( var i = 0; i < questions.length; i += 1 ){
-    question = questions[i][0];
-    answer = questions[i][1];
+    question = questions[i].question;
+    answer = questions[i].answer;
     response = parseInt(prompt(question));
     if (response === answer){
         correctAnswers += 1;
@@ -39,8 +46,8 @@ for ( var i = 0; i < questions.length; i += 1 ){
     }
 }
 
-html = "You got " + correct + " question(s) right."
-html += '<h2>You got these questions correct:</h2>';
+html = "You got " + correct + " question(s) right.";
+html += '<h2 You got these questions correct:</h2>';
 html += buildList(correct);
 html += '<h2> You got these questions wrong:</h2>';
 html += buildList(wrong);
